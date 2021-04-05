@@ -3,7 +3,7 @@ html {
   font-family: Georgia, serif;
   line-height: 1.5;
   color: #323232;
-  background-color: grey;
+  background-color: #bebebe;
 }
 
 *, *::before, *::after {
@@ -24,9 +24,9 @@ header {
   grid-template-columns: auto 10rem auto;
   grid-template-rows: auto 1.5rem;
   grid-template-areas:
-  "left center right"
-  ". center .";
-  margin-bottom: 1.5rem
+        "left center right"
+        ". center .";
+  margin-bottom: 1.5rem;
 }
 
 header > h1 {
@@ -104,12 +104,12 @@ section ul li {
   border: 2px solid #afafaf;
   border-radius: 6px;
 
-  diplay: grid;
+  display: grid;
   grid-template-columns: 1fr;
   grid-template-areas:
-  "top"
-  "middle"
-  "bottom";
+        "top"
+        "middle"
+        "bottom";
 }
 
 section h3 {
@@ -133,7 +133,7 @@ section div {
   z-index: 1;
   font-style: italic;
 
-  diplay: flex;
+  display: flex;
   flex-direction: row-reverse;
   align-items: center;
   justify-self: end;
