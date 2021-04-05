@@ -132,6 +132,7 @@ section div {
   padding: 0 .5em;
   z-index: 1;
   font-style: italic;
+  background-color: #afafaf;
 
   display: flex;
   flex-direction: row-reverse;
