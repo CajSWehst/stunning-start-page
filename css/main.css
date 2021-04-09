@@ -60,7 +60,7 @@ nav a {
   border-radius: 6px;
   padding: .5em .8em;
   font-weight: bold;
-  text-transform: capitalize;
+  text-transform: uppercase;
   text-decoration: none;
   color: #eccee2;
 }
@@ -84,7 +84,7 @@ h2 {
 }
 
 section {
-  padding: 1.5rem;
+  padding: 1.5rem 0;
   border-bottom: 2px solid #afafaf;
   border-top: 2px solid #afafaf;
 }
@@ -119,6 +119,8 @@ section h3 {
   font-family: "PT Sans Narrow", sans-serif;
   font-size: 1.125rem;
   z-index: 1;
+  margin: 0 0 .5rem;
+  padding: .5rem 0;
 }
 
 section li > img {
